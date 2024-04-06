@@ -1,17 +1,9 @@
 import React, { useState } from 'react';
 
 function Addexpense() {
-    const [amount, setAmount] = useState('');
+   
 
-    const handleAmountChange = (event) => {
-      setAmount(event.target.value);
-    };
   
-    const handleAddExpense = () => {
-      // Implement logic to add expense using the 'amount' state
-      console.log('Adding expense:', amount);
-      // You can call a function to add the expense to your state or perform any other action
-    };
   return (
     <>
     <div id="AddExpense" className='
