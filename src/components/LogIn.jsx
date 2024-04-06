@@ -46,12 +46,12 @@ function LogIn() {
         >
           <button
             type="submit"
-            className="border-[#e09b40] border-2 xl:p-2 p-2 xl:rounded-lg"
+            className="border-[#e09b40] border-2 xl:p-2 xl:w-[120px] p-2 xl:rounded-lg hover:bg-[#e09b40] hover:text-black"
           >
-            Sign Up
+            Login
           </button>
         </div>
-        <div id="signUp" className="text-white xl:ml-40 xl:-mt-10 ml-10">
+        <div id="signUp" className="text-white xl:ml-40 xl:-mt-5 ml-10">
           <p>Don't have an account , Sign Up</p>
         </div>
       </div>
