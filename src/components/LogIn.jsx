@@ -57,10 +57,10 @@ function LogIn() {
               placeholder="Enter your email"
               required
               value={email}
-              onClick={ e => setEmail(e.target.value)}
+              onChange={(e) => setEmail(e.target.value)}
               className="
-            bg-[#3b4046] ml-[40px] h-[40px] p-2 w-[230px]
-            xl:ml-[82px] xl:w-[300px]  xl:h-[50px]  xl:rounded-xl"
+                bg-[#3b4046] ml-[40px] h-[40px] p-2 w-[230px]
+                xl:ml-[82px] xl:w-[300px] xl:h-[50px] xl:rounded-xl"
             />
           </div>
           <div className="password xl:flex ">
@@ -70,10 +70,10 @@ function LogIn() {
               placeholder="Enter your 6 digit password"
               required
               value={password}
-              onClick={e => setPassword(e.target.value)}
+              onChange={(e) => setPassword(e.target.value)}
               className="
-            bg-[#3b4046] ml-[10px] h-[40px] p-2 w-[230px] xl:p-2
-            xl:ml-[52px] xl:w-[300px] xl:h-[50px]  xl:rounded-xl"
+                bg-[#3b4046] ml-[10px] h-[40px] p-2 w-[230px] xl:p-2
+                xl:ml-[52px] xl:w-[300px] xl:h-[50px] xl:rounded-xl"
             />
           </div>
         </div>
