@@ -35,14 +35,15 @@ function Signup() {
 
   return (
     <>
-      <div
+    <div id="getstarted" className="w-full h-[100vh] bg-[#343A40]  ">
+    <div
         id="signUp"
         className="
-    font-LexendDeca w-[350px]  h-[420px] ml-10 mt-24
+    font-LexendDeca w-[350px]  h-[420px] ml-10 translate-y-20 border-2  rounded-3xl
     sm:w-[450px] sm:ml-[150px]
     xl:w-[500px] xl:h-[500px] bg-[#1e2319] xl:grid xl:grid-cols-1 xl:ml-[450px] xl:mt-[100px]"
       >
-        <div id="header" className="xl:h-[100px] text-white">
+        <div id="header" className="xl:h-[100px] text-white ">
           <h3
             className="
             pt-5 p-5
@@ -88,7 +89,7 @@ function Signup() {
               required
               placeholder="Email address"
               className="
-            bg-[#3b4046] ml-[35px] h-[40px] p-2
+            bg-[#3b4046] ml-[33px] h-[40px] p-2
             xl:ml-[82px] xl:w-[300px]  xl:h-[50px]  xl:rounded-xl"
             />
           </div>
@@ -116,7 +117,7 @@ function Signup() {
             type="submit"
             disabled={submitButtonDisabled}
             onClick={createUser}
-            className="border-[#e09b40] border-2 mt-2 xl:mt-3 xl:p-2 p-2 xl:rounded-lg"
+            className="border-[#e09b40] border-2 -ml-1 rounded-l-full rounded-r-full w-[300px] mt-2 xl:mt-3 xl:p-2 p-2 xl:rounded-lg"
           >
             Sign Up
           </button>
@@ -127,6 +128,8 @@ function Signup() {
           </h4>
         </div>
       </div>
+    </div>
+      
     </>
   );
 }

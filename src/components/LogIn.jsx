@@ -32,10 +32,11 @@ function LogIn() {
   }
   return (
     <>
-      <div
+        <div id="haveaccount" className="w-full h-[100vh] bg-[#343A40]">
+        <div
         id="logIn"
         className="
-        font-LexendDeca w-[350px]  h-[420px] ml-10 mt-24
+        font-LexendDeca w-[350px]  h-[420px] ml-10 translate-y-20 border-2 rounded-3xl
         sm:w-[450px] sm:ml-[150px]
         xl:w-[550px] xl:h-[350px] bg-[#1e2319]  xl:grid xl:grid-cols-1 xl:ml-[520px] xl:mt-[200px] "
       >
@@ -85,7 +86,7 @@ function LogIn() {
           <button
             type="submit"
             onSubmit={LogInUser}
-            className="border-[#e09b40] border-2 xl:p-2 xl:w-[120px] p-2 xl:rounded-lg hover:bg-[#e09b40] hover:text-black"
+            className="border-[#e09b40] border-2 rounded-l-full rounded-r-full w-[300px] xl:p-2 xl:w-[120px] p-2 xl:rounded-lg hover:bg-[#e09b40] hover:text-black"
           >
             Login
           </button>
@@ -94,6 +95,8 @@ function LogIn() {
           <p>Don't have an account , <Link to="/signup"> Sign Up</Link></p>
         </div>
       </div>
+    </div>
+    
     </>
   );
 }
