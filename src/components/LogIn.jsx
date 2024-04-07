@@ -38,7 +38,7 @@ function LogIn() {
         className="
         font-LexendDeca w-[350px]  h-[420px] ml-10 translate-y-20 border-2 rounded-3xl
         sm:w-[450px] sm:ml-[150px]
-        xl:w-[550px] xl:h-[350px] bg-[#1e2319]  xl:grid xl:grid-cols-1 xl:ml-[520px] xl:mt-[200px] "
+        xl:w-[550px] xl:h-[350px] bg-[#1e2319]  xl:grid xl:grid-cols-1 xl:ml-[520px]  xl:translate-y-36"
       >
         <div id="header" className="text-white pt-5 p-5 xl:p-5 font-LexendDeca ">
           <h3 className="xl:p-2 pl-2">Log In</h3>

@@ -41,7 +41,7 @@ function Signup() {
         className="
     font-LexendDeca w-[350px]  h-[420px] ml-10 translate-y-20 border-2  rounded-3xl
     sm:w-[450px] sm:ml-[150px]
-    xl:w-[500px] xl:h-[500px] bg-[#1e2319] xl:grid xl:grid-cols-1 xl:ml-[450px] xl:mt-[100px]"
+    xl:w-[500px] xl:h-[500px] bg-[#1e2319] xl:grid xl:grid-cols-1 xl:ml-[450px] "
       >
         <div id="header" className="xl:h-[100px] text-white ">
           <h3
